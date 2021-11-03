@@ -4,3 +4,11 @@
   width: 200px;
   height: 50px;
 }
+
+.headline {
+  background-image: url("../images/header-bg-pc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90vw;
+  height: 100vh;
+}
