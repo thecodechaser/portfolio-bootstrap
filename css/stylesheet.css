@@ -1,0 +1,17 @@
+/* stylesheet */
+
+.headline {
+  background-image: url("../images/header-bg-pc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90vw;
+  height: 100vh;
+}
+
+.footer {
+  background-image: url("../images/footer-bg-pc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
