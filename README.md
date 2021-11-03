@@ -2,7 +2,7 @@
 
 # Portfolio-Bootstrap
 
-> Portfolio-bootstrap project is my personal portfolio with my details and previous project works and includes contact me form. This project is completely responsive for mobile and desktop. and developed my completely Bootstrap framework
+> Portfolio-bootstrap project is my personal portfolio with my details and previous project works and includes contact me form. This project is completely responsive for mobile and desktop. and developed by completely Bootstrap framework
 
 ## Screenshots:
 
@@ -23,9 +23,8 @@ Porject's features are added into seperate branch to keep main branch safe.
 ## Built With
 
 - HTML and CSS
-- Markup
-  -Bootstrap
-  -Javascript
+- Bootstrap
+- Javascript
 
 ## Online live link
 
