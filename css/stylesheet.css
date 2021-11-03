@@ -1,10 +1,5 @@
 /* stylesheet */
 
-.navbar-brand {
-  width: 200px;
-  height: 50px;
-}
-
 .headline {
   background-image: url("../images/header-bg-pc.png");
   background-repeat: no-repeat;
@@ -13,29 +8,10 @@
   height: 100vh;
 }
 
-/* .project-image {
-  width: 480px;
-  height: 400px;
-} */
-
-.right-arrow {
-  height: 15px;
-}
-
-.down-arrow {
-  height: 12px;
-}
-
 .footer {
   background-image: url("../images/footer-bg-pc.png");
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 50px 0 0 0;
-  background-color: #6070ff;
   width: 100vw;
   height: 100vh;
-}
-
-.color {
-  color: white;
 }

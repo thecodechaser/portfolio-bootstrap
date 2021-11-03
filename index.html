@@ -28,7 +28,12 @@
     >
       <!-- #### navbar #### -->
       <nav class="container d-flex">
-        <a href="#"><img class="navbar-brand" src="images/my-logo.png" /></a>
+        <a href="#"
+          ><img
+            class="navbar-brand"
+            src="images/my-logo.png"
+            style="width: 200px; height: 50px"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -61,13 +66,13 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Aboute</a>
+              <a class="nav-link active" href="#about">Aboute</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -260,9 +265,10 @@
               <li class="me-3 list-unstyled">
                 <h4>Langguages</h4>
                 <img
-                  class="down-arrow float-end"
+                  class="float-end"
                   src="images/arrow-down.png"
-                  alt="right arrow"
+                  alt="down arrow"
+                  style="height: 12px"
                 />
               </li>
               <div class="d-flex mt-3">
@@ -282,17 +288,19 @@
               <li class="me-3 list-unstyled mt-4">
                 <h4>Frameworks</h4>
                 <img
-                  class="right-arrow float-end"
+                  class="float-end"
                   src="images/arrow-right.png"
                   alt="right arrow"
+                  style="height: 15px"
                 />
               </li>
               <li class="me-3 list-unstyled mt-5">
                 <h4>Skills</h4>
                 <img
-                  class="right-arrow float-end"
+                  class="float-end"
                   src="images/arrow-right.png"
                   alt="right arrow"
+                  style="height: 15px"
                 />
               </li>
             </ul>
@@ -302,14 +310,21 @@
     </main>
 
     <!-- #### fotter-section #### -->
-    <footer>
-      <section class="footer d-flex flex-column align-items-center mt-4">
+    <footer
+      style="border-radius: 50px 0 0 0; background-color: #6070ff; color: white"
+    >
+      <section
+        class="footer d-flex flex-column align-items-center mt-4"
+        id="contact"
+      >
         <h2 class="color mt-4">Contact me</h2>
         <p class="color">
           If you have an application you are interested in developing, a
           feature<br />that you need built or a project that needs coding. I’d
           love to help with it
         </p>
+
+        <!-- #### contact-form #### -->
         <form
           action="https://formspree.io/f/mayazvnq"
           class="d-flex flex-column align-items-center"
